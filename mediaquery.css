@@ -1,0 +1,409 @@
+@media (min-width: 320px) and (max-width: 600px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html, body{
+        width: 100%;
+        height: 100%;
+    }
+    body{
+       overflow-x: hidden;
+       background-attachment: initial;
+    }
+    .main{
+        width: 100%;
+        height:auto;
+    }
+    nav{
+        width: 100%;
+        height: 15%;
+        padding: 10px;
+        font-size:30px;
+    }
+    .leftNav{
+        display:none;
+    }
+    nav img{
+        display: none;
+    }
+    .rightNav{
+        display: none;
+    }
+    .name{
+        height: 77vh;
+        padding:10px;
+    }
+    .name h1{
+        font-size: 60px;;
+        line-height: 10px;
+    }
+    .name span{
+        font-size:90px;
+    }
+    #mainContainer{
+        padding:10px;
+    }
+    #mainContainer p{
+        display: none;
+    }
+    #mainContainer h4{
+        font-size: 10px;
+    }
+    .blank{
+        display: none;
+    }
+    .about{
+        height:80vh;
+        background-color: black;
+        padding:50px 10px;
+        flex-direction: column;
+    }
+    .about h1{
+        font-size: 70px;
+        width: 100%;
+    }
+    .about p{
+        font-size: 14px;
+        width: 100%;
+    }
+    .abtCont{
+        width: 100%;
+    }
+    .abtCont section{
+        margin-top:20px;
+    }
+    .abtCont #one{
+        width: 50%;
+    }
+    .abtCont #two{
+        width: 50%;
+    }
+    .experience{
+        width: 100%;
+        height: 100vh;
+        padding:10px;
+        flex-direction: column;
+        padding-top:150px;
+    }
+    .experience section{
+        width: 100%;
+    }
+    .experience h1{
+        font-size:30px;
+        padding:10px;
+    }
+    .experience p{
+        font-size: 16px;
+        padding:10px;
+    }
+    .experience h1 img{
+        width: 30px;
+        height: 30px;
+    }
+    .experience img{
+        width: 350px;
+        height: 350px;
+    }
+    .categories{
+        height:130vh;
+        padding: 20px 10px;
+    }
+    .catHead{
+        align-items: start;
+    }
+    .catHead h1{
+        font-size: 30px;
+    }
+    .catHead p{
+        width: 30%;
+        font-size: 10px;
+    }
+    .catImage{
+        flex-direction: column;
+    }
+    .catImage img{
+        width: 270px;
+        height: 270px;
+    }
+    .catImage section{
+        width: 100%;
+    }
+    .catExplore{
+        width: 100%;
+        margin-top: 19rem;
+    }
+    .catExplore button{
+        width:70px;
+        height: 70px;
+        font-size: 16px;
+    }
+    .catExplore img{
+        display: none;
+    }
+    .more{
+        height:80vh;
+        padding: 30px 10px;
+    }
+    .moreHead h1{
+        font-size: 30px;
+    }
+    .moreHead p{
+        font-size: 14px;;
+    }
+    .moreImages{
+        height:195px
+    }
+    .images{
+        width:250px;
+    }
+    .images img{
+        width: 250px;
+        height: 195px;
+    }
+    .footer{
+        width: 100%;
+        height: 100%;
+        padding:30px 10px;
+    }
+    .footer h1{
+        font-size: 30px;
+    }
+    .footer section{
+        margin: 20px 0px;
+        
+    }
+    .footer input{
+        width: 70%;
+    }
+    .footer button{
+        width: 40%;
+        font-size: 14px;
+        padding:10px 20px;
+        margin: 10px 0px;
+    }
+    .end{
+        width: 100%;
+        flex-direction: column;
+    }
+    .list{
+        width: 100%;
+    }
+    .list ul li{
+        font-size: 14px;
+        text-align: center;
+    }
+    .list ul span{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}   
+
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html, body{
+        width: 100%;
+        height: 100%;
+    }
+    body{
+       overflow-x: hidden;
+       background-attachment: initial;
+    }
+    .main{
+        width: 100%;
+        height:auto;
+    }
+    nav{
+        width: 100%;
+        height: 15%;
+        padding: 10px;
+        font-size:30px;
+    }
+    .leftNav{
+        display:none;
+    }
+    nav img{
+        display: none;
+    }
+    .rightNav{
+        display: none;
+    }
+    .name{
+        height: 77vh;
+        padding:10px;
+    }
+    .name h1{
+        font-size: 60px;;
+        line-height: 10px;
+    }
+    .name span{
+        font-size:90px;
+    }
+    #mainContainer{
+        padding:10px;
+    }
+    #mainContainer p{
+        display: initial;
+        font-size: 12px;
+    }
+    #mainContainer h4{
+        font-size: 10px;
+    }
+    .blank{
+        display: none;
+    }
+    .about{
+        height:50vh;
+        background-color: black;
+        padding:50px 10px;
+        flex-direction: column;
+    }
+    .about h1{
+        font-size: 90px;
+        width: 100%;
+    }
+    .about p{
+        font-size: 16px;
+        width: 100%;
+    }
+    .abtCont{
+        width: 100%;
+    }
+    .abtCont section{
+        /* margin-top:20px; */
+        height:18vh;
+    }
+    .abtCont #one{
+        width: 50%;
+    }
+    .abtCont #two{
+        width: 50%;
+    }
+    .experience{
+        width: 100%;
+        height: 80vh;
+        padding:10px;
+    }
+    .experience section{
+        width: 100%;
+    }
+    .experience h1{
+        font-size:70px;
+        padding:10px;
+    }
+    .experience p{
+        font-size: 18px;
+        padding:10px;
+    }
+    .experience h1 img{
+        width: 60px;
+        height: 60px;
+    }
+    .experience img{
+        width: 430px;
+        height: 430px;
+    }
+    .categories{
+        height:100vh;
+        padding: 20px 10px;
+    }
+    .catHead{
+        align-items: start;
+    }
+    .catHead h1{
+        font-size: 50px;
+    }
+    .catHead p{
+        width: 30%;
+        font-size: 16px;
+    }
+    .catImage{
+        flex-direction: column;
+    }
+    .catImage img{
+        width: 300px;
+        height: 300px;
+    }
+    .catImage section{
+        width: 100%;
+    }
+    .catExplore{
+        width: 100%;
+        margin-top: 10rem;
+    }
+    .catExplore button{
+        width:100px;
+        height: 100px;
+        font-size: 18px;
+    }
+    .catExplore img{
+        display: none;
+    }
+    .more{
+        height:60vh;
+        padding: 30px 10px;
+    }
+    .moreHead{
+        height:20vh;
+    }
+    .moreHead h1{
+        font-size: 60px;
+    }
+    .moreHead p{
+        font-size: 16px;;
+    }
+    .moreImages{
+        height:195px
+    }
+    .images{
+        width:250px;
+    }
+    .images img{
+        width: 250px;
+        height: 195px;
+    }
+    .footer{
+        width: 100%;
+        height: 100%;
+        padding:30px 10px;
+    }
+    .footer h1{
+        font-size: 30px;
+    }
+    .footer section{
+        margin: 20px 0px;
+        
+    }
+    .footer input{
+        width: 70%;
+    }
+    .footer button{
+        width: 40%;
+        font-size: 16px;
+        padding:10px 20px;
+        margin: 10px 0px;
+    }
+    .end{
+        width: 100%;
+        flex-direction: column;
+    }
+    .list{
+        width: 100%;
+    }
+    .list ul li{
+        font-size: 16px;
+        text-align: center;
+    }
+    .list ul span{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}   
+
