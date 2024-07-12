@@ -32,6 +32,9 @@ nav{
     padding:0px 50px;
     position: relative;
 }
+.menu{
+    display: none;
+}
 .leftNav{
     width: 35%;
 }
@@ -238,16 +241,6 @@ nav img{
     justify-content: space-between;
     font-size: 30px;
     border-bottom: 1px solid white;
-}
-.cursor{
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    border-radius: 50%;
-    top:30px;
-    left:15px;
-    background-color: aliceblue;
-    transition: 0.05s;
 }
 .catExplore{
     width: 100%;
